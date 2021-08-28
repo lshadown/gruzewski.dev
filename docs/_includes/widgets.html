@@ -1,12 +1,12 @@
 {% if site.name and site.description %}
 <section class="widget widget-text">
-    <h2 class="widget-title">About {{ site.name }}</h2>
+    <h2 class="widget-title">O stronie {{ site.name }}</h2>
     <p>{{ site.description }}</p>
 </section>
 {% endif %}
 
 <section class="widget widget-recent-posts">
-    <h2 class="widget-title">Recent Articles</h2>
+    <h2 class="widget-title">Ostatnie posty</h2>
     <ul>
         {% for post in site.posts limit:3 %}
         <li>
