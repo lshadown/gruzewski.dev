@@ -35,7 +35,7 @@ linkedin: 'mateuszgruzewski'
 
 # Navigation
 navigation:
-  - text: O mnie
+  - text: About
     url: /about/
   - text: Style Guide
     url: /style-guide/
