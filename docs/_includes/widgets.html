@@ -51,13 +51,15 @@ endcapture %} {% assign sortedTags = site_tags | split:',' | sort %}
 {% if site.mailchimp_url %}
 <section class="widget widget-newsletter">
     <div class="inner">
-        <h2 class="newsletter-box-title">Zapisz się do newslettera!</h2>
+        <h2 class="widget-title">Zapisz się do newslettera!</h2>
         <p></p>
         <!-- Begin MailChimp Signup Form -->
         <div id="mc_embed_signup">
-            <form action="{{ site.mailchimp_url }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate gh-subscribe-form" target="_blank" novalidate>
+            <form action="{{ site.mailchimp_url }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                class="validate gh-subscribe-form" target="_blank" novalidate>
                 <label for="mce-EMAIL" class="screen-reader-text">Email Address</label>
-                <input type="email" value="" name="EMAIL" class="required email subscribe-email" id="mce-EMAIL" placeholder="E-Mail">
+                <input type="email" value="" name="EMAIL" class="required email subscribe-email" id="mce-EMAIL"
+                    placeholder="Twój adres Email">
                 <input type="submit" value="Zapisz się" name="subscribe" id="mc-embedded-subscribe" class="button">
             </form>
         </div>
