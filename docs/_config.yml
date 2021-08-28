@@ -35,12 +35,12 @@ linkedin: 'mateuszgruzewski'
 
 # Navigation
 navigation:
-  - text: About
-    url: /about/
+  - text: O mnie
+    url: /about
   - text: Style Guide
-    url: /style-guide/
+    url: /style-guide
   - text: Kontakt
-    url: /contact/
+    url: /contact
 
 # Required Plugins
 plugins_dir:
