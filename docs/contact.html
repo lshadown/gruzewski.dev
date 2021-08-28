@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact Me
+title: Napisz do mnie
 ---
 
 <!--
@@ -20,18 +20,18 @@ title: Contact Me
       <section class="contact-form">
         <form action="https://formspree.io/{{ site.email }}" method="post" id="contact-form">
           <div class="form-item">
-            <label class="form-label">Your Email <span>(required)</span></label>
-            <input type="text" name="email" placeholder="Your email address..." class="form-input" />
+            <label class="form-label">Email <span>(required)</span></label>
+            <input type="text" name="email" placeholder="Twój adres Email..." class="form-input" />
           </div>
 
           <div class="form-item">
-            <label class="form-label">Your Name <span>(required)</span></label>
-            <input type="text" name="name" placeholder="Your name..." class="form-input" />
+            <label class="form-label">Imię <span>(required)</span></label>
+            <input type="text" name="name" placeholder="Twoje imię..." class="form-input" />
           </div>
 
           <div class="form-item">
-            <label class="form-label">Your Message <span>(required)</span></label>
-            <textarea name="message" placeholder="Your message..." class="form-textarea"></textarea>
+            <label class="form-label">Wiadomość <span>(required)</span></label>
+            <textarea name="message" placeholder="Twoja wiadomość..." class="form-textarea"></textarea>
           </div>
 
           <input type="hidden" name="_next" value="/thank-you" />
@@ -39,7 +39,7 @@ title: Contact Me
           <input type="text" name="_gotcha" style="display: none;" class="contact-form__gotcha" val="" />
 
           <div class="form-item">
-            <input type="submit" value="Send Message" class="button" />
+            <input type="submit" value="Wyślij wiadomość" class="button" />
           </div>
         </form>
       </section>
