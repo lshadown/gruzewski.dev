@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: O mnie
 featured_image: /assets/images/pages/about.jpg
 ---
 
