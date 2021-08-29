@@ -1,6 +1,6 @@
 # Site setings
 name: 'Gruzewski.Dev'
-description: 'Chciałbym aby ta strona była miejscem gdzie będę mógł się z Wami dzielić moją wiedzą oraz moimi doświadczeniami'
+description: 'Chciałbym aby ta strona była miejscem gdzie będę mógł się z Wami dzielić moją wiedzą oraz moimi doświadczeniami. Znajdziecie tutaj wpisy związane z JVM, architekturą, testami oraz z projektami, które obecnie prowadzę.'
 meta_description: ''
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
