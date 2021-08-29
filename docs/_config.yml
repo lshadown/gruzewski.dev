@@ -1,7 +1,7 @@
 # Site setings
 name: 'Gruzewski.Dev'
-description: '.'
-meta_description: '.'
+description: 'Chciałbym aby ta strona była miejscem gdzie będę mógł się z Wami dzielić moją wiedzą oraz moimi doświadczeniami'
+meta_description: ''
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 url: "https://gruzewski.dev"
@@ -39,7 +39,6 @@ navigation:
     url: /about
   - text: Kontakt
     url: /contact
-
 # Required Plugins
 plugins_dir:
   - jekyll-paginate
