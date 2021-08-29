@@ -11,7 +11,7 @@ disqus: 'gruzewski-dev'
 mailchimp_url: '//dev.us7.list-manage.com/subscribe/post?u=f7a122ac8ec7d8eef9610d15a&amp;id=3cb00cdd8a'
 cover_image: bc_1.jpg
 # Add your GA Tracking Id
-ga_analytics: 
+ga_analytics: 'UA-131731100-2'
 
 
 # Author
