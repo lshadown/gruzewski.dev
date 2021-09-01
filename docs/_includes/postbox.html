@@ -2,8 +2,8 @@
     <header class="post-header">
         <div class="post-meta">
             <time class="published" datetime="{{ post.date | date: '%Y-%m-%d' }}">
-                {{ page.date | date: "%-d" }}
-                {% assign month = page.date | date: '%-m' %}
+                {{ post.date | date: "%-d" }}
+                {% assign month = post.date | date: '%-m' %}
                 {% case month %}
                 {% when '1' %}Stycznia
                 {% when '2' %}Lutego
@@ -18,7 +18,7 @@
                 {% when '11' %}Listopada
                 {% when '12' %}Grudnia
                 {% endcase %}
-                {{ page.date | date: ", %Y" }}
+                {{ post.date | date: ", %Y" }}
             </time>
         </div><!-- .post-meta -->
         <h2 class="post-title">
