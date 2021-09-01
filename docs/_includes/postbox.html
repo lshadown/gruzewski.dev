@@ -1,7 +1,24 @@
 <article class="post">
     <header class="post-header">
         <div class="post-meta">
-            <time class="published" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+            <time class="published" datetime="{{ post.date | date: '%Y-%m-%d' }}">
+                {% assign month = page.date | date: '%-m' %}
+                {% case month %}
+                {% when '1' %}Styczeń
+                {% when '2' %}Luty
+                {% when '3' %}Marzec
+                {% when '4' %}Kwiecień
+                {% when '5' %}Maj
+                {% when '6' %}Czerwiec
+                {% when '7' %}Lipiec
+                {% when '8' %}Sierpień
+                {% when '9' %}Wrzesień
+                {% when '10' %}Październik
+                {% when '11' %}Listopad
+                {% when '12' %}Grudzień
+                {% endcase %}
+                {{ page.date | date: "%-d, %Y" }}
+            </time>
         </div><!-- .post-meta -->
         <h2 class="post-title">
             <a href="{{ post.url | absolute_url }}" rel="bookmark">{{ post.title }}</a>
