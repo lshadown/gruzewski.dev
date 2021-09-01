@@ -2,22 +2,23 @@
     <header class="post-header">
         <div class="post-meta">
             <time class="published" datetime="{{ post.date | date: '%Y-%m-%d' }}">
+                {{ page.date | date: "%-d" }}
                 {% assign month = page.date | date: '%-m' %}
                 {% case month %}
-                {% when '1' %}Styczeń
-                {% when '2' %}Luty
-                {% when '3' %}Marzec
-                {% when '4' %}Kwiecień
-                {% when '5' %}Maj
-                {% when '6' %}Czerwiec
-                {% when '7' %}Lipiec
-                {% when '8' %}Sierpień
-                {% when '9' %}Wrzesień
-                {% when '10' %}Październik
-                {% when '11' %}Listopad
-                {% when '12' %}Grudzień
+                {% when '1' %}Stycznia
+                {% when '2' %}Lutego
+                {% when '3' %}Marca
+                {% when '4' %}Kwietnia
+                {% when '5' %}Maja
+                {% when '6' %}Czerwca
+                {% when '7' %}Lipca
+                {% when '8' %}Sierpnia
+                {% when '9' %}Września
+                {% when '10' %}Października
+                {% when '11' %}Listopada
+                {% when '12' %}Grudnia
                 {% endcase %}
-                {{ page.date | date: "%-d, %Y" }}
+                {{ page.date | date: ", %Y" }}
             </time>
         </div><!-- .post-meta -->
         <h2 class="post-title">
