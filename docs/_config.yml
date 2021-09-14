@@ -19,8 +19,9 @@ author:
   name: 'Mateusz Grużewski'
   image: 'authorimage.jpg'
   greetings: 'Cześć!'
-  description: "Nazywam się Mateusz Grużewski. Jestem Software Developer ...."
-  bio: 'Daniel is a designer, photographer, speaker, author of a couple of books about typography and the founder of photo magazine Curious.'
+  description: "Fajnie, że tu jesteś. Znajdziesz tutaj wiele ciekawych wpisów na temat JVM, architektury cz czystego kodu.
+   Chciałbym aby ten blog był miejscem gdzie będę mógł się dzielić moją wiedzą i doświadczeniem."
+  bio: ''
 
 # Contact form setings
 email: mateusz@gruzewski.dev
