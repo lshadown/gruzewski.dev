@@ -19,8 +19,11 @@ author:
   name: 'Mateusz Grużewski'
   image: 'authorimage.jpg'
   greetings: 'Cześć!'
-  description: "Fajnie, że tu jesteś. Znajdziesz tutaj wiele ciekawych wpisów na temat JVM, architektury cz czystego kodu.
-   Kim jestem? Jestem Software Developer, którego pasją jest programowanie, kocha czysty kod, a co najważniejsze lubi dzielić się swoją wiedzą."
+  description: "Fajnie, że tu trafiłeś, nawet jeśli przez przypadek to zostań, rozgość się, jesteś mile widziany. Dalsza rodzina nazywa mnie informatykiem, bliska programistą, sam określam się zaszczytnym mianem Software Developera.
+   Programowanie jest moim sposobem na życie i przetrwanie, ale też pasją, której z chęcią się poddaję i zatracam.
+    W swojej pracy mocno zwracam uwagę na czystość i przejrzystość kodu.
+    Najważniejszym jednak jest to, że lubię dzielić się swoją wiedzą i jednocześnie poszerzać własne horyzonty.
+    Na blogu poruszane będą zagadnienia związane z JVM, architekturą czy wspomnianym już czystym kodem."
   bio: ''
 
 # Contact form setings
