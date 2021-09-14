@@ -1,8 +1,9 @@
 ---
 layout: page
 title: O mnie
-featured_image: /assets/images/pages/about.jpg
 ---
+<img style="float: right;" src="/assets/images/pages/about.jpg">
+
 Jestem software engineer z ponad 6-letnim doświadczeniem.
 
 Zawodowo interesuje się JVM, DDD oraz architekturą. Staram się myśleć nieszablonowo i patrzeć na problem z perspektywy wyzwania, łącząc zagadnienia biznesowe z technologicznymi.
