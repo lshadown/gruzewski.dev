@@ -2,7 +2,7 @@
 layout: page
 title: O mnie
 ---
-![image](assets/images/pages/about.jpg){: style="float: left"}
+![image](assets/images/pages/about.jpg){: .img-left}
 
 Jestem software engineer z ponad 6-letnim doświadczeniem.
 
