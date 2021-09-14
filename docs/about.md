@@ -9,4 +9,4 @@ Zawodowo interesuje się JVM, DDD oraz architekturą. Staram się myśleć niesz
 
 Aktualnie rozwijam skrzydła w Allegro, będąc częścią zespołu DEX. Dodatkowo spełniam się naukowo, zajmując się optymalizacją kompilatorów optymalizujących, jestem również autorem kilku artykułów naukowych.
 
-Prywatnie lubię chodzić po górach, żeglować, być blisko natury, co jest wyjątkowym kontrastem dla wielogodzinnych posiedzeń przed ekranem komputera. 
+Prywatnie lubię chodzić po górach, żeglować, być blisko natury, co jest świetnym kontrastem dla wielogodzinnych posiedzeń przed ekranem komputera. 
