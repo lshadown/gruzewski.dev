@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 'JIT - Co każdy developer powinien o nim wiedzieć'
+featured_image_thumbnail: assets/images/posts/2021/12_thumbnail.jpg
+featured_image: assets/images/posts/2021/12.jpg
 tags: [JIT, JVM]
 ---
 Dzisiejszy wpis chciałbym poświęcić zagadnieniu związanym z JVM, a dokładnie JIT. Każda napisana aplikacja 
@@ -39,14 +41,12 @@ która łączy zalety wersji klienckiej i serwerowej. Składa się ona z etapów
 JIT w celu optymalizacji kodu stosuje wiele zaawansowanych technik, które umożliwiają przyspieszenie
 działania aplikacji. 
 ### Przykładowe metody optymalizacji
-#### Zagnieżdżanie metod (Method inlining)
-    Optymalizacja polega na zastąpieniu wywołania funkcji ciałem wywoływanej metody
-#### Kompilacja do kodu natywnego (Native code)
-    Jest to jedna z najbardziej efektywnych metod optymalizacji, która pozwala uzyskać nawet 20-krotne przyspieszenie.
-    Optymalizacja polega na zastąpieniu interpretora kodu bajtowego na kod natywny w trakcie pracy aplikacji. 
-#### Usuwanie martwego kodu (Dead code elimination)
-    Usuwa nieużywany kod zachowując funkcjonalność- przykładem może być usunięcie kodu po wykonaniu optymalizacji
-    zagnieżdżania metod.
+* **Zagnieżdżanie metod (Method inlining)** - optymalizacja polega na zastąpieniu wywołania funkcji ciałem wywoływanej
+metody
+* **Kompilacja do kodu natywnego (Native code)** jest to jedna z najbardziej efektywnych metod optymalizacji,
+która pozwala uzyskać nawet 20-krotne przyspieszenie. Optymalizacja polega na zastąpieniu interpretora kodu bajtowego na kod natywny w trakcie pracy aplikacji. 
+* **Usuwanie martwego kodu (Dead code elimination)** - usuwa nieużywany kod zachowując funkcjonalność 
+przykładem może być usunięcie kodu po wykonaniu optymalizacji zagnieżdżania metod.
 ### Przydatne flagi
 * -XX:ReservedCodeCacheSize - maksymalna wielkość pamięci podręcznej. Pamięć ta jest wykorzystywana przez JIT.
 * -XX:+PrintCompilation (domyślna wartość false) - umożliwia wyświetlanie informacji o każdej kompilacji,
