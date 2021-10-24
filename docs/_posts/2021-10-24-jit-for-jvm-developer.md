@@ -55,7 +55,7 @@ która jest wykonywana w naszej aplikacji.
 
 ### Profilowanie aplikacji
 Wykonując profilowanie aplikacji warto zwrócić uwagę na kilka kwestii związanych z JIT:
-* zdefiniować czy pamięć podręczna jest wystarczająca dla aplikacji i czy nie dostajemy
+* sprawdzić czy pamięć podręczna jest wystarczająca dla aplikacji i czy nie dostajemy
 komunikatów: "CodeCache is full",
 * zweryfikować wykorzystując flagę -XX:+PrintCompilation, jakie elementy są kompilowane.
 
