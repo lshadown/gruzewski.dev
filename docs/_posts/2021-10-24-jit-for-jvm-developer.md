@@ -9,7 +9,7 @@ Dzisiejszy wpis chciałbym poświęcić zagadnieniu związanym z JVM, a dokładn
 na wirtualną maszynę Javy korzysta z tego dobrodziejstwa, a nie każdy wie, jak dokładnie działa i jaki może mieć
 wpływ na naszą aplikację.
 
-![](../assets/images/posts/2021/jvm_life_cycle.png)
+![](../assets/images/posts/2021/jvm_life_cycle.jpg)
 
 Java znalazła kompromis pomiędzy językami kompilowanymi, a interpretowanymi tworząc bytecode. Jest to
 zbiór instrukcji do wykonania przez wirtualną maszynę Javy. Takie podejście umożliwiło uruchamianie
