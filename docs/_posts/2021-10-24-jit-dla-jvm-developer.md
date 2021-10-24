@@ -2,7 +2,7 @@
 layout: post
 title: 'JIT - Co każdy developer powinien o nim wiedzieć'
 featured_image_thumbnail: assets/images/posts/2021/12_thumbnail.jpg
-featured_image: assets/images/posts/2021/12.jpg
+featured_image: assets/images/posts/2021/jvm_jit_logo.png
 tags: [JIT, JVM]
 ---
 Dzisiejszy wpis chciałbym poświęcić zagadnieniu związanym z JVM, a dokładnie JIT. Każda napisana aplikacja 
