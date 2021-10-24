@@ -48,10 +48,10 @@ która pozwala uzyskać nawet 20-krotne przyspieszenie. Optymalizacja polega na 
 * **Usuwanie martwego kodu (Dead code elimination)** - usuwa nieużywany kod zachowując funkcjonalność 
 przykładem może być usunięcie kodu po wykonaniu optymalizacji zagnieżdżania metod.
 ### Przydatne flagi
-* -XX:ReservedCodeCacheSize - maksymalna wielkość pamięci podręcznej. Pamięć ta jest wykorzystywana przez JIT.
-* -XX:+PrintCompilation (domyślna wartość false) - umożliwia wyświetlanie informacji o każdej kompilacji,
+* **-XX:ReservedCodeCacheSize** - maksymalna wielkość pamięci podręcznej. Pamięć ta jest wykorzystywana przez JIT.
+* **-XX:+PrintCompilation** (domyślna wartość false) - umożliwia wyświetlanie informacji o każdej kompilacji,
 która jest wykonywana w naszej aplikacji. 
-* XX:-TieredCompilation (domyślna wartość true) - włączenie/wyłączenie kompilacji etapowej
+* **XX:-TieredCompilation** (domyślna wartość true) - włączenie/wyłączenie kompilacji etapowej
 
 ### Profilowanie aplikacji
 Wykonując profilowanie aplikacji warto zwrócić uwagę na kilka kwestii związanych z JIT:
