@@ -41,7 +41,7 @@ linkedin: 'mateuszgruzewski'
 navigation:
   - text: O mnie
     url: /about
-  - text: Wystąpienia
+  - text: Wystapienia
       url: /talks
   - text: Kontakt
       url: /contact
