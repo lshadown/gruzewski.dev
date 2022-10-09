@@ -42,9 +42,9 @@ navigation:
   - text: O mnie
     url: /about
   - text: Wystąpienia
-      url: /talks
+    url: /talks
   - text: Kontakt
-      url: /contact
+    url: /contact
 # Required Plugins
 plugins_dir:
   - jekyll-paginate
